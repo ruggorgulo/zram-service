@@ -1,0 +1,10 @@
+Package: zram-service
+Architecture: all
+Maintainer: ruggorgulo
+Depends: debconf (>= 0.5.00), coreutils, awk, kmod, util-linux, mount, e2fsprogs, dash
+Priority: optional
+Version: 1.0
+Description: Activate compressed ram disks and swaps.
+ This script provides an easy way of creating compressed ram disks and swaps.
+ .
+ Basic configuration in /etc/zram-service.sh creates one compressed swap and several compressed disks.
